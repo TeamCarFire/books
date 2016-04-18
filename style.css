@@ -1,0 +1,15 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+
+ul {
+  list-style: none;
+}
+
+li.have{
+  color:green;
+}
+li.need{
+  color: red;
+}
