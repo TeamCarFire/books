@@ -1,8 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
+    max-width: 90%;
 }
-
-
 ul {
   list-style: none;
 }
@@ -14,9 +13,20 @@ li.need{
   color: red;
 }
 article {
-    padding: 20px;
-    margin: 50px;
+    padding: 10px;
+    margin: 20px;
+    border: 0; 
+    max-width: 95%;
+    line-height: 1.2;
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
+}
+header {
+    height: 130px;
+}
+h3 {
+    position: relative;
+    top: -10px; 
+    
 }
