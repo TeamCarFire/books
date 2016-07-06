@@ -75,7 +75,7 @@ h3 {
      * we'll align the children in the center, along
      * the main axis.
      */
-    align-items: center;
+    align-items: left;
 
     /**
      * And just like in the "Centered prompt", we'll
@@ -84,16 +84,16 @@ h3 {
      */
     justify-content: center;
 
-    padding: 15px 0;
+    padding: 2px 0;
   }
 
     .card__descriptionIcon {
       font-size: 32px;
-      margin-bottom: 10px;
+      margin-bottom: 2px;
     }
 
     .card__descriptionText {
       color: #57727C;
-      font-size: 12px;
-      text-align: center;
+      font-size: 16px;
+      text-align: left;
       max-width: calc(100% - 30px);
