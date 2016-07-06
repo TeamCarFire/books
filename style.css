@@ -5,13 +5,6 @@ body {
 ul {
   list-style: none;
 }
-
-li.have{
-  color:green;
-}
-li.need{
-  color: red;
-}
 article {
     padding: 10px;
     margin: 20px;
@@ -36,6 +29,12 @@ h3 {
   padding: 0; 
     margin: 0; 
     max-width: 75%; 
+}
+li.have{
+  color:green;
+}
+li.need{
+  color: red;
 }
 .card {
   /**
@@ -93,7 +92,6 @@ h3 {
     }
 
     .card__descriptionText {
-      color: #57727C;
       font-size: 16px;
       text-align: left;
       max-width: calc(100% - 30px);
