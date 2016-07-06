@@ -18,9 +18,6 @@ article {
     border: 0; 
     max-width: 95%;
     line-height: 1.2;
-    -webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1;
 }
 header {
     height: 0px;
